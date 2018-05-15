@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>京东-欢迎登录</title>
+    <link href="css/login.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <header>
+		<div id="logo">
+			<a href="index.php"><img src="imgs/logo.png"></a>
+			<b>欢迎登录</b>
+		</div>
+        <div id="q-link">
+			<a href="#">页面登录，问卷调查</a>
+		</div>
+
+    </header>
+    <div class="tips-wraper">
+    	<div class="tips-inner">
+        	<p>
+		依据《网络安全法》，为保障您的账户安全和正常使用，请尽快完成手机号验证！ 新版《京东隐私政策》已上线，将更有利于保护您的个人隐私。
+       		</p>
+        </div>
+	</div>
+    <main>
+        <div class="main_box">
+            <div class="main_title">
+                <span>账户登录</span>
+                <s></s>
+            </div>
+			<form action="login.php" method="post">
+            <div id="frm">
+                <div>
+                    <label for="uname"><i></i></label>
+                    <input type="text" id="uname" name="uname" placeholder="邮箱/用户名/已验证手机">
+					<span></span>
+                </div>
+                <div>
+                    <label for="uname"><b></b></label>
+                    <input type="password" id="upwd" name="upwd" placeholder="密码">
+					<span></span>
+                </div>
+            </div>
+            <div class="forget_pwd">
+                <a href="#">忘记密码</a>
+            </div>
+            <input type="submit" name="login_btn" id="login_btn" value="登&nbsp;&nbsp;&nbsp;&nbsp;录">
+			</form>
+            <div class="login_bottom">
+                <div class="partner_login">
+                    <p>
+                        <a href="#">QQ</a>
+                        <span>|</span>
+                        <a href="#">微信</a>
+						
+						<a href="register.html">立即注册</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p class="links">
+            <a href="#">关于我们</a>
+            <span>|</span>
+            <a href="#">联系我们</a>
+            <span>|</span>
+            <a href="#">人才招聘</a>
+            <span>|</span>
+            <a href="#">商家入驻</a>
+            <span>|</span>
+            <a href="#">广告服务</a>
+            <span>|</span>
+            <a href="#">手机京东</a>
+            <span>|</span>
+            <a href="#">友情链接</a>
+            <span>|</span>
+            <a href="#">销售联盟</a>
+            <span>|</span>
+            <a href="#">京东社区</a>
+            <span>|</span>
+            <a href="#">京东公益</a>
+            <span>|</span>
+            <a href="#">English Site</a>
+        </p>
+        <p class="copy">Copyright&copy;2004-2016&nbsp;京东JD.com&nbsp;版权所有</p>
+    </footer>
+</body>
+</html>

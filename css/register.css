@@ -1,0 +1,104 @@
+	header {
+		width: 990px;
+		height: 90px;
+		margin: 0 auto;
+	}
+	#logo {
+		position: relative;
+		width: 300px;
+		margin: 10px 0;
+		height: 30px;
+		float: left;
+	}
+	#q-link {
+		position: relative;
+		float: right;
+		margin: 52px 0 20px auto;
+	}
+	header b {
+		font: 24px "microsoft yahei";
+		margin: auto 10px;
+	}
+	header span {
+		position: relative;
+		float: right;
+		margin: 52px 0 20px auto;
+	}
+	
+	/*main*/
+	main {
+		width:824px;
+		margin: 40px auto;
+	}
+	main .main_left {
+		weight:502px;
+		float: left;
+	}
+	main .main_left div {
+		width: 450px;
+		height: 80px;
+		margin: 10px auto;
+	}
+	label {
+		width: 128px;
+        height: 50px;
+        display: inline-block;
+        border: 1px solid #BDBDBD;
+        border-right: 0;
+        float: left;
+        text-align: center;
+        color: #666;
+        font: 13px "microsoft yahei";
+        line-height: 38px;
+        transition: background 1s;
+	}
+	main .main_left div input {
+        width: 252px;
+        float: left;
+        border: 1px solid #BDBDBD;
+        border-left: 0;
+        padding-left: 10px;
+        height: 50px;
+	}
+	#tel {
+        width: 252px;
+        float: left;
+        border: 1px solid #BDBDBD;
+        padding-left: 10px;
+        height: 50px;
+    }
+    #code, #tel_code{
+        width: 152px;
+		height: 50px;
+        float: left;
+        border: 1px solid #BDBDBD;
+        border-left: 0;
+    }
+	label .code, .tel_code{
+		padding: 3px;
+	}
+	#register_btn {
+		width: 400px;
+		height: 53px;
+		float: left;
+		background-color: #E4393C;
+		border-left: 0;
+		padding-left: 10px;
+		border: 0;
+		color: #FFF;
+		font: 16px "microsoft yahei";
+		text-align: center;
+	}
+	main .main_right {
+		weight: 400px;
+		float: right;
+	}
+	
+	
+	
+	/*footer*/
+	footer {
+		clear: both;
+		margin: 700px auto;
+		text-align: center;
+	}
